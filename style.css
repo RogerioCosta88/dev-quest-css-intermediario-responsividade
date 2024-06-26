@@ -1,0 +1,44 @@
+body {
+    background-color: #e1e2e1;
+}
+
+.cabecalho {
+    padding: 10px 5px;
+    background-color: #dc143c;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 15px;
+    position: top;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 30px;
+    min-width: 320px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main .info {
+font-size: 18px;
+}
+
+main .principal {
+    font-size: 25px;
+    color: #dc143c;
+    font-weight: 700;
+}
+
+.image img {
+    width: 100%;
+}
