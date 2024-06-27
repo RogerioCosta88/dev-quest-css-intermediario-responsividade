@@ -3,12 +3,10 @@ body {
 }
 
 .cabecalho {
+    display: inline-block;
     padding: 10px 5px;
     background-color: #dc143c;
-}
-
-.cabecalho .logo {
-    display: inline-block;
+    width: 100%;
 }
 
 .cabecalho nav {
@@ -29,7 +27,7 @@ main {
 }
 
 main .info {
-font-size: 18px;
+    font-size: 18px;
 }
 
 main .principal {
@@ -40,4 +38,24 @@ main .principal {
 
 .image img {
     width: 100%;
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        display: block;
+        text-align: center;
+        background-color:#0018F9;
+    }
+
+    .cabecalho nav {
+        float: none;
+    }
+
+    .cabecalho nav li {
+        display: block;
+    }
+
+    .cabecalho nav li a {
+        color: #FFFFFF;
+    }
 }
